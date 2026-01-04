@@ -52,12 +52,15 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.maxLabel = new System.Windows.Forms.Label();
+            this.averageLabel = new System.Windows.Forms.Label();
+            this.sumEvenLabel = new System.Windows.Forms.Label();
+            this.threesLabel = new System.Windows.Forms.Label();
+            this.matchingLabel = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.nullLabel = new System.Windows.Forms.Label();
+            this.a1a2Label = new System.Windows.Forms.Label();
+            this.a2a1Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -99,7 +102,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Pink;
-            this.label3.Location = new System.Drawing.Point(708, 543);
+            this.label3.Location = new System.Drawing.Point(708, 532);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 86);
             this.label3.TabIndex = 3;
@@ -112,7 +115,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label4.Location = new System.Drawing.Point(630, 543);
+            this.label4.Location = new System.Drawing.Point(630, 532);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 86);
             this.label4.TabIndex = 4;
@@ -124,7 +127,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Pink;
-            this.label5.Location = new System.Drawing.Point(555, 543);
+            this.label5.Location = new System.Drawing.Point(555, 532);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 86);
             this.label5.TabIndex = 5;
@@ -136,7 +139,7 @@
             this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label6.Location = new System.Drawing.Point(476, 543);
+            this.label6.Location = new System.Drawing.Point(476, 532);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 86);
             this.label6.TabIndex = 6;
@@ -148,7 +151,7 @@
             this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label8.Location = new System.Drawing.Point(320, 543);
+            this.label8.Location = new System.Drawing.Point(320, 532);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 86);
             this.label8.TabIndex = 8;
@@ -160,7 +163,7 @@
             this.label9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Pink;
-            this.label9.Location = new System.Drawing.Point(240, 543);
+            this.label9.Location = new System.Drawing.Point(240, 532);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 86);
             this.label9.TabIndex = 9;
@@ -172,7 +175,7 @@
             this.label10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label10.Location = new System.Drawing.Point(168, 543);
+            this.label10.Location = new System.Drawing.Point(168, 532);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 86);
             this.label10.TabIndex = 10;
@@ -184,7 +187,7 @@
             this.label11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label11.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Pink;
-            this.label11.Location = new System.Drawing.Point(91, 543);
+            this.label11.Location = new System.Drawing.Point(91, 532);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(86, 86);
             this.label11.TabIndex = 11;
@@ -196,7 +199,7 @@
             this.label12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label12.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label12.Location = new System.Drawing.Point(10, 543);
+            this.label12.Location = new System.Drawing.Point(10, 532);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(86, 86);
             this.label12.TabIndex = 12;
@@ -231,7 +234,7 @@
             this.label14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Font = new System.Drawing.Font("Baskerville Old Face", 43.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Pink;
-            this.label14.Location = new System.Drawing.Point(397, 543);
+            this.label14.Location = new System.Drawing.Point(397, 532);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(86, 86);
             this.label14.TabIndex = 15;
@@ -344,85 +347,123 @@
             this.label20.Text = "Matching Values In Matching Positions";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label21
+            // maxLabel
             // 
-            this.label21.BackColor = System.Drawing.Color.LightPink;
-            this.label21.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.Location = new System.Drawing.Point(714, 145);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(61, 38);
-            this.label21.TabIndex = 25;
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.maxLabel.BackColor = System.Drawing.Color.LightPink;
+            this.maxLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.maxLabel.Location = new System.Drawing.Point(714, 145);
+            this.maxLabel.Name = "maxLabel";
+            this.maxLabel.Size = new System.Drawing.Size(61, 38);
+            this.maxLabel.TabIndex = 25;
+            this.maxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label22
+            // averageLabel
             // 
-            this.label22.BackColor = System.Drawing.Color.LightPink;
-            this.label22.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(714, 209);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(61, 38);
-            this.label22.TabIndex = 26;
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.averageLabel.BackColor = System.Drawing.Color.LightPink;
+            this.averageLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.averageLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.averageLabel.Location = new System.Drawing.Point(714, 209);
+            this.averageLabel.Name = "averageLabel";
+            this.averageLabel.Size = new System.Drawing.Size(61, 38);
+            this.averageLabel.TabIndex = 26;
+            this.averageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label23
+            // sumEvenLabel
             // 
-            this.label23.BackColor = System.Drawing.Color.LightPink;
-            this.label23.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(714, 288);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(61, 38);
-            this.label23.TabIndex = 27;
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sumEvenLabel.BackColor = System.Drawing.Color.LightPink;
+            this.sumEvenLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sumEvenLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sumEvenLabel.Location = new System.Drawing.Point(714, 288);
+            this.sumEvenLabel.Name = "sumEvenLabel";
+            this.sumEvenLabel.Size = new System.Drawing.Size(61, 38);
+            this.sumEvenLabel.TabIndex = 27;
+            this.sumEvenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label24
+            // threesLabel
             // 
-            this.label24.BackColor = System.Drawing.Color.LightPink;
-            this.label24.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.Location = new System.Drawing.Point(714, 367);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(61, 38);
-            this.label24.TabIndex = 28;
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.threesLabel.BackColor = System.Drawing.Color.LightPink;
+            this.threesLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.threesLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.threesLabel.Location = new System.Drawing.Point(714, 367);
+            this.threesLabel.Name = "threesLabel";
+            this.threesLabel.Size = new System.Drawing.Size(61, 38);
+            this.threesLabel.TabIndex = 28;
+            this.threesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label25
+            // matchingLabel
             // 
-            this.label25.BackColor = System.Drawing.Color.LightPink;
-            this.label25.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.Location = new System.Drawing.Point(714, 446);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(61, 38);
-            this.label25.TabIndex = 29;
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.matchingLabel.BackColor = System.Drawing.Color.LightPink;
+            this.matchingLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.matchingLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.matchingLabel.Location = new System.Drawing.Point(714, 446);
+            this.matchingLabel.Name = "matchingLabel";
+            this.matchingLabel.Size = new System.Drawing.Size(61, 38);
+            this.matchingLabel.TabIndex = 29;
+            this.matchingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
             this.label26.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label26.Font = new System.Drawing.Font("Baskerville Old Face", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label26.Location = new System.Drawing.Point(12, 684);
+            this.label26.Location = new System.Drawing.Point(152, 754);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(242, 80);
             this.label26.TabIndex = 30;
             this.label26.Text = "First Index Of 0";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nullLabel
+            // 
+            this.nullLabel.BackColor = System.Drawing.Color.LightPink;
+            this.nullLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nullLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.nullLabel.Location = new System.Drawing.Point(409, 775);
+            this.nullLabel.Name = "nullLabel";
+            this.nullLabel.Size = new System.Drawing.Size(121, 38);
+            this.nullLabel.TabIndex = 31;
+            this.nullLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // a1a2Label
+            // 
+            this.a1a2Label.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.a1a2Label.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a1a2Label.ForeColor = System.Drawing.Color.Pink;
+            this.a1a2Label.Location = new System.Drawing.Point(406, 631);
+            this.a1a2Label.Name = "a1a2Label";
+            this.a1a2Label.Size = new System.Drawing.Size(348, 48);
+            this.a1a2Label.TabIndex = 32;
+            this.a1a2Label.Text = "Array 1 Swap With Array 2";
+            this.a1a2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // a2a1Label
+            // 
+            this.a2a1Label.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.a2a1Label.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a2a1Label.ForeColor = System.Drawing.Color.Pink;
+            this.a2a1Label.Location = new System.Drawing.Point(31, 631);
+            this.a2a1Label.Name = "a2a1Label";
+            this.a2a1Label.Size = new System.Drawing.Size(304, 61);
+            this.a2a1Label.TabIndex = 33;
+            this.a2a1Label.Text = "Array 2 Swap With Array 1";
+            this.a2a1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(804, 819);
+            this.ClientSize = new System.Drawing.Size(804, 833);
+            this.Controls.Add(this.a2a1Label);
+            this.Controls.Add(this.a1a2Label);
+            this.Controls.Add(this.nullLabel);
             this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
+            this.Controls.Add(this.matchingLabel);
+            this.Controls.Add(this.threesLabel);
+            this.Controls.Add(this.sumEvenLabel);
+            this.Controls.Add(this.averageLabel);
+            this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
@@ -479,12 +520,15 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label maxLabel;
+        private System.Windows.Forms.Label averageLabel;
+        private System.Windows.Forms.Label sumEvenLabel;
+        private System.Windows.Forms.Label threesLabel;
+        private System.Windows.Forms.Label matchingLabel;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label nullLabel;
+        private System.Windows.Forms.Label a1a2Label;
+        private System.Windows.Forms.Label a2a1Label;
     }
 }
 
