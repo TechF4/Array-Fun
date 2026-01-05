@@ -58,7 +58,7 @@
             this.threesLabel = new System.Windows.Forms.Label();
             this.matchingLabel = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.nullLabel = new System.Windows.Forms.Label();
+            this.zeroLabel = new System.Windows.Forms.Label();
             this.a1a2Label = new System.Windows.Forms.Label();
             this.a2a1Label = new System.Windows.Forms.Label();
             this.ar2ar1Label = new System.Windows.Forms.Label();
@@ -417,16 +417,16 @@
             this.label26.Text = "First Index Of 0";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nullLabel
+            // zeroLabel
             // 
-            this.nullLabel.BackColor = System.Drawing.Color.LightPink;
-            this.nullLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nullLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.nullLabel.Location = new System.Drawing.Point(409, 775);
-            this.nullLabel.Name = "nullLabel";
-            this.nullLabel.Size = new System.Drawing.Size(121, 38);
-            this.nullLabel.TabIndex = 31;
-            this.nullLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.zeroLabel.BackColor = System.Drawing.Color.LightPink;
+            this.zeroLabel.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zeroLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.zeroLabel.Location = new System.Drawing.Point(409, 775);
+            this.zeroLabel.Name = "zeroLabel";
+            this.zeroLabel.Size = new System.Drawing.Size(121, 38);
+            this.zeroLabel.TabIndex = 31;
+            this.zeroLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // a1a2Label
             // 
@@ -445,12 +445,13 @@
             this.a2a1Label.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.a2a1Label.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a2a1Label.ForeColor = System.Drawing.Color.Pink;
-            this.a2a1Label.Location = new System.Drawing.Point(31, 643);
+            this.a2a1Label.Location = new System.Drawing.Point(12, 643);
             this.a2a1Label.Name = "a2a1Label";
-            this.a2a1Label.Size = new System.Drawing.Size(304, 49);
+            this.a2a1Label.Size = new System.Drawing.Size(327, 49);
             this.a2a1Label.TabIndex = 33;
             this.a2a1Label.Text = "Array 2 Swap With Array 1";
             this.a2a1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.a2a1Label.Click += new System.EventHandler(this.a2a1Label_Click);
             // 
             // ar2ar1Label
             // 
@@ -484,7 +485,7 @@
             this.Controls.Add(this.ar2ar1Label);
             this.Controls.Add(this.a2a1Label);
             this.Controls.Add(this.a1a2Label);
-            this.Controls.Add(this.nullLabel);
+            this.Controls.Add(this.zeroLabel);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.matchingLabel);
             this.Controls.Add(this.threesLabel);
@@ -553,7 +554,7 @@
         private System.Windows.Forms.Label threesLabel;
         private System.Windows.Forms.Label matchingLabel;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label nullLabel;
+        private System.Windows.Forms.Label zeroLabel;
         private System.Windows.Forms.Label a1a2Label;
         private System.Windows.Forms.Label a2a1Label;
         private System.Windows.Forms.Label ar2ar1Label;
