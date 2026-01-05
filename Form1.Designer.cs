@@ -61,8 +61,8 @@
             this.nullLabel = new System.Windows.Forms.Label();
             this.a1a2Label = new System.Windows.Forms.Label();
             this.a2a1Label = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.ar2ar1Label = new System.Windows.Forms.Label();
+            this.ar1ar2Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -228,7 +228,7 @@
             this.array1Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.array1Label.Location = new System.Drawing.Point(16, 231);
             this.array1Label.Name = "array1Label";
-            this.array1Label.Size = new System.Drawing.Size(250, 50);
+            this.array1Label.Size = new System.Drawing.Size(277, 50);
             this.array1Label.TabIndex = 14;
             this.array1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -263,7 +263,7 @@
             this.array2Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.array2Label.Location = new System.Drawing.Point(16, 344);
             this.array2Label.Name = "array2Label";
-            this.array2Label.Size = new System.Drawing.Size(250, 50);
+            this.array2Label.Size = new System.Drawing.Size(277, 50);
             this.array2Label.TabIndex = 17;
             this.array2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -274,7 +274,7 @@
             this.array3Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.array3Label.Location = new System.Drawing.Point(17, 457);
             this.array3Label.Name = "array3Label";
-            this.array3Label.Size = new System.Drawing.Size(250, 50);
+            this.array3Label.Size = new System.Drawing.Size(276, 50);
             this.array3Label.TabIndex = 19;
             this.array3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -283,11 +283,11 @@
             this.label16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label16.Location = new System.Drawing.Point(13, 416);
+            this.label16.Location = new System.Drawing.Point(3, 407);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(122, 50);
+            this.label16.Size = new System.Drawing.Size(254, 50);
             this.label16.TabIndex = 18;
-            this.label16.Text = "Array 3";
+            this.label16.Text = "Array 1 in Reverse";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
@@ -433,7 +433,7 @@
             this.a1a2Label.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.a1a2Label.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a1a2Label.ForeColor = System.Drawing.Color.Pink;
-            this.a1a2Label.Location = new System.Drawing.Point(406, 631);
+            this.a1a2Label.Location = new System.Drawing.Point(410, 644);
             this.a1a2Label.Name = "a1a2Label";
             this.a1a2Label.Size = new System.Drawing.Size(348, 48);
             this.a1a2Label.TabIndex = 32;
@@ -445,34 +445,34 @@
             this.a2a1Label.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.a2a1Label.Font = new System.Drawing.Font("Baskerville Old Face", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a2a1Label.ForeColor = System.Drawing.Color.Pink;
-            this.a2a1Label.Location = new System.Drawing.Point(31, 631);
+            this.a2a1Label.Location = new System.Drawing.Point(31, 643);
             this.a2a1Label.Name = "a2a1Label";
-            this.a2a1Label.Size = new System.Drawing.Size(304, 61);
+            this.a2a1Label.Size = new System.Drawing.Size(304, 49);
             this.a2a1Label.TabIndex = 33;
             this.a2a1Label.Text = "Array 2 Swap With Array 1";
             this.a2a1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // ar2ar1Label
             // 
-            this.label21.BackColor = System.Drawing.Color.LightPink;
-            this.label21.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.Location = new System.Drawing.Point(43, 692);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(250, 45);
-            this.label21.TabIndex = 34;
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ar2ar1Label.BackColor = System.Drawing.Color.LightPink;
+            this.ar2ar1Label.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ar2ar1Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ar2ar1Label.Location = new System.Drawing.Point(22, 692);
+            this.ar2ar1Label.Name = "ar2ar1Label";
+            this.ar2ar1Label.Size = new System.Drawing.Size(313, 45);
+            this.ar2ar1Label.TabIndex = 34;
+            this.ar2ar1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label22
+            // ar1ar2Label
             // 
-            this.label22.BackColor = System.Drawing.Color.LightPink;
-            this.label22.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(457, 692);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(250, 45);
-            this.label22.TabIndex = 35;
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ar1ar2Label.BackColor = System.Drawing.Color.LightPink;
+            this.ar1ar2Label.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ar1ar2Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ar1ar2Label.Location = new System.Drawing.Point(425, 692);
+            this.ar1ar2Label.Name = "ar1ar2Label";
+            this.ar1ar2Label.Size = new System.Drawing.Size(313, 45);
+            this.ar1ar2Label.TabIndex = 35;
+            this.ar1ar2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -480,8 +480,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(804, 833);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
+            this.Controls.Add(this.ar1ar2Label);
+            this.Controls.Add(this.ar2ar1Label);
             this.Controls.Add(this.a2a1Label);
             this.Controls.Add(this.a1a2Label);
             this.Controls.Add(this.nullLabel);
@@ -556,8 +556,8 @@
         private System.Windows.Forms.Label nullLabel;
         private System.Windows.Forms.Label a1a2Label;
         private System.Windows.Forms.Label a2a1Label;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label ar2ar1Label;
+        private System.Windows.Forms.Label ar1ar2Label;
     }
 }
 
