@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.runButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,6 +61,8 @@
             this.nullLabel = new System.Windows.Forms.Label();
             this.a1a2Label = new System.Windows.Forms.Label();
             this.a2a1Label = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -86,16 +88,17 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "🌸";
             // 
-            // button1
+            // runButton
             // 
-            this.button1.Font = new System.Drawing.Font("Baskerville Old Face", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.button1.Location = new System.Drawing.Point(22, 132);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(245, 51);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Run";
-            this.button1.UseVisualStyleBackColor = true;
+            this.runButton.Font = new System.Drawing.Font("Baskerville Old Face", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.runButton.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.runButton.Location = new System.Drawing.Point(22, 132);
+            this.runButton.Name = "runButton";
+            this.runButton.Size = new System.Drawing.Size(245, 51);
+            this.runButton.TabIndex = 2;
+            this.runButton.Text = "Run";
+            this.runButton.UseVisualStyleBackColor = true;
+            this.runButton.Click += new System.EventHandler(this.runButton_Click);
             // 
             // label3
             // 
@@ -449,12 +452,36 @@
             this.a2a1Label.Text = "Array 2 Swap With Array 1";
             this.a2a1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.LightPink;
+            this.label21.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(43, 692);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(250, 45);
+            this.label21.TabIndex = 34;
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.LightPink;
+            this.label22.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label22.Location = new System.Drawing.Point(457, 692);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(250, 45);
+            this.label22.TabIndex = 35;
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(804, 833);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
             this.Controls.Add(this.a2a1Label);
             this.Controls.Add(this.a1a2Label);
             this.Controls.Add(this.nullLabel);
@@ -485,7 +512,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.runButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -498,7 +525,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button runButton;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -529,6 +556,8 @@
         private System.Windows.Forms.Label nullLabel;
         private System.Windows.Forms.Label a1a2Label;
         private System.Windows.Forms.Label a2a1Label;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
     }
 }
 
